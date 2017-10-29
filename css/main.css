@@ -1,3 +1,158 @@
-/*
- * Estilos de tu proyecto
- */
+body{
+font-family: helvetica, sans-serif;
+  margin: 0px;
+
+}
+
+/*Estilos de la barra superior de navegación*/
+.menu{
+  position: fixed;
+  top: 0px;
+  background: #212529;
+  width: 100%;
+  color: #fff;
+  list-style: none;
+  font-size: 16px;
+  font-weight: 800;
+  z-index: 1000;
+
+}
+.menu ul{
+  text-align: right;
+  margin:0px 80px;
+  padding: 20px;
+  overflow: auto;
+
+}
+.menu li{
+  display: inline-block;
+  margin: 12px 6px;
+  padding-top: 12px;
+}
+.menu li:hover{
+  color: #18bc9c;
+}
+.menu .first-item{
+  font-size: 32px;
+  float:left;
+  padding-top: 0px;
+}
+/* Primera caja*/
+.container{
+  font-family: helvetica;
+  width: 100%;
+  background: #18bc9c;
+  margin-right: auto;
+  margin-left: auto;
+  color: #fff;
+  text-align: center;
+  padding: 183px 0px 80px 0px;
+  line-height: 1.5;
+}
+.container p{
+font-size: 70px;
+font-weight: 900;
+margin:0px;
+}
+.container ul{
+  list-style: none;
+}
+.container li{
+  display: inline-block;
+  font-size: 26px;
+}
+.container hr{
+  margin: 25px auto 30px;
+  width: 20%;
+  border: 2px solid white;
+}
+/*Segunda caja*/
+.portfolio{
+  text-align: center;
+  margin: 100px 0px 100px;
+}
+.portfolio p{
+font-size: 45px;
+font-weight: 800;
+margin: 0;
+}
+.portfolio hr{
+  margin: 25px auto 30px;
+  width: 20%;
+  border: 2px solid black;
+}
+.portfolio figure{
+  display: inline-block;
+  margin:0px;
+}
+.container-images img{
+  position: relative;
+  max-width: 350px;
+  margin: 12px;
+}
+/*Tercera caja: About*/
+.about{
+text-align: center;
+background-color: #18bc9c;
+padding: 100px 0px;
+color: #fff;
+}
+.about .title{
+  font-size: 45px;
+  font-weight: 800;
+  margin: 0px;
+}
+.about hr{
+  margin: 25px auto 30px;
+  width: 20%;
+  border: 2px solid white;
+}
+.column1, .column2{
+  display: inline-block;
+  line-height: 1.5;
+  font-size: 20px;
+  margin: 10px;
+  text-align: left;
+  width: 27%;
+}
+.button{
+  margin-top: 20px;
+  font-size: 20px;
+  border: 2px solid #fff;
+  padding: 12px;
+  border-radius: 5px;
+  display: inline-block;
+}
+.button:hover{
+  color: #18bc9c;
+  background-color: #fff;
+}
+/*Cuarta caja: Formulario*/
+.contact{
+  text-align: center;
+  background-color: #fff;
+  padding: 100px 0px;
+  color: #000;
+}
+.contact p{
+  font-size: 45px;
+  font-weight: 800;
+  margin: 0px;
+}
+.contact hr{
+  margin: 25px auto 30px;
+  width: 20%;
+  border: 2px solid black;
+}
+.name{
+  
+}
+/*Enlaces*/
+.enlace{
+  text-decoration: none;
+  color: inherit;
+}
+/*Reutilizable*/
+.text-uppercase{
+  text-transform: uppercase
+}
