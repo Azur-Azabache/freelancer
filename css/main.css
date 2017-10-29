@@ -8,7 +8,7 @@ font-family: helvetica, sans-serif;
 .menu{
   position: fixed;
   top: 0px;
-  background: #212529;
+  background: #2c3e50;
   width: 100%;
   color: #fff;
   list-style: none;
@@ -144,9 +144,68 @@ color: #fff;
   width: 20%;
   border: 2px solid black;
 }
-.name{
-  
+input{
+  border: none;
+  font-size: 25px;
+  display: block;
+  text-align: center;
+  padding: 20px;
+  border-bottom: 1px solid #ced4da;
+  margin-left: auto;
+  margin-right: auto;
+  font-family: Arial;
+  outline: none;
+  line-height: 1.5;
 }
+button{
+position: relative;
+top: 25px;
+background: #18bc9c;
+border-style: none;
+font-size: 20px;
+color: white;
+padding: 12px 15px;
+font-weight: 700;
+border-radius: 5px;
+text-align: left;
+}
+button:hover{
+  background: #088A68;
+}
+
+/*Footer*/
+footer{
+  background: #2c3e50;
+  padding: 40px 0px 10px 0px;
+  color: #fff;
+  text-align: center;
+}
+footer .cube{
+  display: inline-block;
+  width:  28%;
+  margin: auto;
+}
+footer i{
+  border: 2px solid white;
+  padding: 15px;
+  border-radius: 100%;
+  font-size: 14px;
+}
+footer i:hover{
+  background-color: white;
+  color: #18bc9c;
+
+}
+.cube a{
+  text-decoration: none;
+  color: #18bc9c;
+}
+.cube a:hover{
+  text-decoration: underline;
+  color: #18bc9c;
+}
+
+
 /*Enlaces*/
 .enlace{
   text-decoration: none;
