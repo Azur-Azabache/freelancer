@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <title></title>
     <script src="https://use.fontawesome.com/8936b83482.js"></script>
-    <link href="https://fonts.googleapis.com/css?family=Lato|Montserrat" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Lato:900|Montserrat" rel="stylesheet">
     <link rel="stylesheet" href="css/main.css">
   </head>
 
@@ -26,8 +26,9 @@
         <img src="assets/images/profile.png">
       </figure>
       <p class="text-uppercase">Start Bootstrap</p>
-      <hr>
-      </hr>
+      <div class="star">
+      <i class="fa fa-star fa-2x" aria-hidden="true"></i>
+    </div>
       <ul>
         <li>Web Developer</li>
         <li>- Graphic Artist</li>
@@ -37,21 +38,24 @@
 
     <section class="portfolio">
       <p class="text-uppercase">Portfolio</p>
-      <hr>
-      </hr>
+      <div class="star">
+        <i class="fa fa-star fa-2x" aria-hidden="true"></i>
+      </div>      
       <figure class="container-images">
-        <img src="assets/images/portfolio/cabin.png">
-        <img src="assets/images/portfolio/cake.png">
-        <img src="assets/images/portfolio/circus.png">
-        <img src="assets/images/portfolio/game.png">
-        <img src="assets/images/portfolio/safe.png">
-        <img src="assets/images/portfolio/submarine.png">
+        <a href="#"><img src="assets/images/portfolio/cabin.png"></a>
+        <a href="#"><img src="assets/images/portfolio/cake.png"></a>
+        <a href="#"><img src="assets/images/portfolio/circus.png"></a>
+        <a href="#"><img src="assets/images/portfolio/game.png"></a>
+        <a href="#"><img src="assets/images/portfolio/safe.png"></a>
+        <a href="#"><img src="assets/images/portfolio/submarine.png"></a>
       </figure>
     </section>
 
     <section class="about">
       <p class="title text-uppercase">About</p>
-      <hr>
+      <div class="star">
+        <i class="fa fa-star fa-2x" aria-hidden="true"></i>
+      </div>
       <div class="column1">Freelancer is a free bootstrap theme created by Start Bootstrap. The download includes the complete source files including HTML, CSS, and JavaScript as well as optional LESS stylesheets for easy customization.</div>
       <div class="column2">Whether you're a student looking to showcase your work, a professional looking to attract clients, or a graphic artist looking to share your projects, this template is the perfect starting point!</div>
       <br>
@@ -67,18 +71,22 @@
 
     <section class="contact">
       <p class="title text-uppercase">Contact Me</p>
-      <hr>
+      <div class="star">
+        <i class="fa fa-star fa-2x" aria-hidden="true"></i>
+      </div>
     <form>
 
-      <input type="text" placeholder="Name">
+      <input type="text" placeholder="Name" required>
 
-      <input type="text" placeholder="Email Adress">
+      <input type="text" placeholder="Email Adress" required>
 
-      <input type="text" placeholder="Phone Number">
+      <input type="text" placeholder="Phone Number" required>
 
-      <input type="text" placeholder="Message">
-
-      <button>Send</button>
+      <textarea rows="5" placeholder="Message" required></textarea>
+    
+        <button>Send</button>
+    
+      
     </form>
 
     </section>
@@ -93,17 +101,17 @@
       </div>
       <div class="cube">
         <h1 class="text-uppercase">Around the web</h1>
-        <i class="fa fa-facebook" aria-hidden="true"></i>
-        <i class="fa fa-google-plus" aria-hidden="true"></i>
-        <i class="fa fa-twitter" aria-hidden="true"></i>
-        <i class="fa fa-linkedin" aria-hidden="true"></i>
-        <i class="fa fa-dribbble" aria-hidden="true"></i>
+        <i class="fa fa-facebook fa-lg" aria-hidden="true"></i>
+        <i class="fa fa-google-plus fa-lg" aria-hidden="true"></i>
+        <i class="fa fa-twitter fa-lg" aria-hidden="true"></i>
+        <i class="fa fa-linkedin fa-lg" aria-hidden="true"></i>
+        <i class="fa fa-dribbble fa-lg" aria-hidden="true"></i>
       </div>
       <div class="cube">
         <h1 class="text-uppercase">About Freelancer</h1>
-        <p>Freelance is a free to use, open source Bootstrap theme created by <a href="#">Start Bootstrap</a>.</p>
+        <p >Freelance is a free to use, open source Bootstrap theme created by <a href="#">Start Bootstrap</a>.</p>
       </div>
-      <p>Copyright © Your Website 2017</p>
+      <p id="copyright">Copyright © Your Website 2017</p>
     </footer>
   </body>
 

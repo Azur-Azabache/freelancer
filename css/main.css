@@ -12,14 +12,13 @@ font-family: helvetica, sans-serif;
   width: 100%;
   color: #fff;
   list-style: none;
-  font-size: 16px;
-  font-weight: 800;
+  font-size: 17px;
   z-index: 1000;
-
+  font-family: "lato";
 }
 .menu ul{
   text-align: right;
-  margin:0px 80px;
+  margin:0px 210px;
   padding: 20px;
   overflow: auto;
 
@@ -33,9 +32,12 @@ font-family: helvetica, sans-serif;
   color: #18bc9c;
 }
 .menu .first-item{
-  font-size: 32px;
+  font-size: 34px;
   float:left;
   padding-top: 0px;
+}
+.menu .first-item:hover{
+ color: white;
 }
 /* Primera caja*/
 .container{
@@ -76,20 +78,39 @@ font-size: 45px;
 font-weight: 800;
 margin: 0;
 }
-.portfolio hr{
+.star::before, .star::after{
+  content: "___"; /*Contenido que aparecera*/
+  font-size: 60px;
+  font-weight:700;
+  margin-right: 5px;
+  opacity: 0.95;/*Le asignamos opacidad para que se diferencie de los demas textos que se encuentren en la etiqueta <section>*/
+  position: relative;
+  top:-17px;
+ }
+
+.star{
+  position: relative;
+  bottom: 25px;
+}
+
+/*.portfolio hr{
   margin: 25px auto 30px;
   width: 20%;
   border: 2px solid black;
-}
+}*/
 .portfolio figure{
-  display: inline-block;
-  margin:0px;
+ /* display: inline-block;*/
+ column-count: 3;
+ column-gap: none;
+  margin: 0px 230px auto;
 }
 .container-images img{
   position: relative;
   max-width: 350px;
   margin: 12px;
+ 
 }
+
 /*Tercera caja: About*/
 .about{
 text-align: center;
@@ -109,11 +130,13 @@ color: #fff;
 }
 .column1, .column2{
   display: inline-block;
-  line-height: 1.5;
-  font-size: 20px;
+  line-height: 1.7;
+  font-size: 18px;
   margin: 10px;
   text-align: left;
-  width: 27%;
+  width: 22.5%;
+  vertical-align: text-top;
+  font-family: 'Montserrat', sans-serif;
 }
 .button{
   margin-top: 20px;
@@ -126,6 +149,7 @@ color: #fff;
 .button:hover{
   color: #18bc9c;
   background-color: #fff;
+  transition-duration: 1s;
 }
 /*Cuarta caja: Formulario*/
 .contact{
@@ -144,22 +168,28 @@ color: #fff;
   width: 20%;
   border: 2px solid black;
 }
-input{
+input, textarea{
   border: none;
   font-size: 25px;
   display: block;
   text-align: center;
-  padding: 20px;
+  padding: 25px 0px;
   border-bottom: 1px solid #ced4da;
   margin-left: auto;
   margin-right: auto;
   font-family: Arial;
   outline: none;
   line-height: 1.5;
+  width: 45%; 
+}
+[placeholder]{
+  text-align: left;
 }
 button{
+display: block;
 position: relative;
 top: 25px;
+left: 27.5%;
 background: #18bc9c;
 border-style: none;
 font-size: 20px;
@@ -171,6 +201,7 @@ text-align: left;
 }
 button:hover{
   background: #088A68;
+  transition-duration: 1s;
 }
 
 /*Footer*/
@@ -182,19 +213,34 @@ footer{
 }
 footer .cube{
   display: inline-block;
-  width:  28%;
-  margin: auto;
+  width:  25%;
+  margin: auto auto 100px auto;
+  box-sizing: border-box;
 }
 footer i{
   border: 2px solid white;
   padding: 15px;
+  margin: 2px;
   border-radius: 100%;
-  font-size: 14px;
+  box-sizing: border-box
+  
 }
 footer i:hover{
   background-color: white;
   color: #18bc9c;
+  transition-duration: 1s;
+}
+footer h1{
+  margin-bottom: 35px; 
+  font-size: 26px;
+  font-weight: 900;
+}
+footer p{
+  font-size: 18px;
+}
 
+#copyright{
+  font-size: 16px;
 }
 .cube a{
   text-decoration: none;
@@ -203,7 +249,9 @@ footer i:hover{
 .cube a:hover{
   text-decoration: underline;
   color: #18bc9c;
+ 
 }
+
 
 
 /*Enlaces*/
