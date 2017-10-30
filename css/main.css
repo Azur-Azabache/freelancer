@@ -63,11 +63,7 @@ margin:0px;
   display: inline-block;
   font-size: 26px;
 }
-.container hr{
-  margin: 25px auto 30px;
-  width: 20%;
-  border: 2px solid white;
-}
+
 /*Segunda caja*/
 .portfolio{
   text-align: center;
@@ -93,13 +89,8 @@ margin: 0;
   bottom: 25px;
 }
 
-/*.portfolio hr{
-  margin: 25px auto 30px;
-  width: 20%;
-  border: 2px solid black;
-}*/
 .portfolio figure{
- /* display: inline-block;*/
+ 
  column-count: 3;
  column-gap: none;
   margin: 0px 230px auto;
@@ -108,7 +99,6 @@ margin: 0;
   position: relative;
   max-width: 350px;
   margin: 12px;
- 
 }
 
 /*Tercera caja: About*/
@@ -123,11 +113,7 @@ color: #fff;
   font-weight: 800;
   margin: 0px;
 }
-.about hr{
-  margin: 25px auto 30px;
-  width: 20%;
-  border: 2px solid white;
-}
+
 .column1, .column2{
   display: inline-block;
   line-height: 1.7;
@@ -163,11 +149,7 @@ color: #fff;
   font-weight: 800;
   margin: 0px;
 }
-.contact hr{
-  margin: 25px auto 30px;
-  width: 20%;
-  border: 2px solid black;
-}
+
 input, textarea{
   border: none;
   font-size: 25px;
@@ -251,7 +233,6 @@ footer p{
   color: #18bc9c;
  
 }
-
 
 
 /*Enlaces*/
